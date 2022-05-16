@@ -123,6 +123,7 @@ img{
   padding-bottom: 14px;
   padding-left: 40px;
   margin-right: 25px;
+  border: none;
 }
 
 .site-lenguage{
@@ -176,6 +177,7 @@ img{
 
 .main-info{
   margin-bottom: 60px;
+  text-decoration: none;
 }
 
 .nav-centr{
@@ -213,7 +215,7 @@ img{
   margin-bottom: 40px;
 }
 
-.heder-fotter{
+.heder-bottom{
   margin-bottom: 50px;
 }
 
@@ -354,6 +356,9 @@ img{
           align-items: center;
   background-color: rgba(247, 139, 59, 1);
   border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .turn-text{
@@ -362,7 +367,7 @@ img{
   font-size: 20px;
   line-height: 24px;
   margin: 0;
-  padding: 13px 30px; 
+  text-decoration: none;
 }
 
 .main-heder-title{
