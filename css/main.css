@@ -48,6 +48,17 @@ img{
   margin-left: auto;
 }
 
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+
 .site-title{
   position: absolute;
   width: 1px;
@@ -661,6 +672,151 @@ img{
   height: 22px;
   margin-bottom: 10px;
 }
+
+/* ======contact======== */
+
+.contact{
+  padding-bottom: 100px;
+}
+
+.contact__title{
+  margin: 0;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 28px;
+color: #000000;
+margin-bottom: 20px;
+}
+
+.contact__inner{
+ display: flex;
+}
+
+.contact__form{
+ width: 696px;
+}
+
+.form__name{
+width: 343px;
+padding: 18px 20px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+}
+
+.form__name::placeholder{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+opacity: 0.5;
+}
+
+.form__name-width{
+ margin-right: 6px;
+}
+
+.form__name:focus{
+ outline: none;
+}
+
+.form__email{
+  width: 100%;
+display:block;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.form__name-area{
+width: 100%;
+height: 180px;
+resize: none;
+margin-bottom: 20px;
+}
+
+.form__button{
+  margin-left: auto;
+}
+
+.form__wrap{
+  display: flex;
+  justify-content: end;
+}
+
+.form__button{
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+padding: 17px 30px;
+background-color: #7297EF;
+border-radius: 10px;
+border: none;
+}
+
+
+/* contact info */
+
+.contact__info{
+ width: 494px;
+ height: 310px;
+ background-color: #F6F6F6;
+ margin-left: auto;
+ border-radius: 10px;
+}
+
+.menu__list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  padding: 40px 25px;
+}
+
+.menu__item{
+ border-bottom: 1px solid rgba(210, 210, 210, 1);
+ margin-bottom: 20px;
+ padding-bottom: 20px;
+}
+
+.menu__item:nth-child(3){
+ padding-bottom: 0;
+ margin-bottom: 0;
+ border-bottom: none;
+}
+
+.menu__title{
+  margin: 0;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 7px;
+}
+
+.menu__link{
+  text-decoration: none;
+  font-family: 'Rubik';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+}
+
+
+
+
+
+
+
+
 
 /* ===========Article======== */
 
